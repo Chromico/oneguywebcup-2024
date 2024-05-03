@@ -1,4 +1,4 @@
-import { withClerkMiddleware, getAuth } from "@clerk/nextjs/server";
+import { clerkMiddleware, getAuth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
  
@@ -11,7 +11,7 @@ const isPublic = (path: string) => {
   );
 };
  
-export default withClerkMiddleware((request: NextRequest) => {
+export default clerkMiddleware((request: NextRequest) => {
   if (isPublic(request.nextUrl.pathname)) {
     return NextResponse.next();
   }
