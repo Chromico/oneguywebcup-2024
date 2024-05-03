@@ -8,6 +8,7 @@ export default authMiddleware({
 
   afterAuth(auth, req) {
     // Handle users who aren't authenticated
+    // Clerk Auth
     if (!auth.userId && !auth.isPublicRoute) {
       return redirectToSignIn({ returnBackUrl: req.url });
     }
