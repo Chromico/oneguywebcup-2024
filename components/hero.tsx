@@ -31,9 +31,9 @@ export default function Hero() {
             <div className="grid grid-cols-1 gap-3 lg:grid-cols-3 lg:gap-8">
 
               <div className="h-32 rounded-lg">
-                <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-purple-500 ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
+                <a href="#" className="group block max-w-xs mx-auto rounded-lg p-6 bg-purple-500 ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
                   <div className="flex items-center space-x-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sword"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-sword"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/></svg>
                     <h3 className="text-slate-900 group-hover:text-white text-sm font-semibold">Defense</h3>
                   </div>
                   <p className="text-slate-500 group-hover:text-white text-sm">See how you should prepare yourself or your family.</p>
@@ -42,9 +42,9 @@ export default function Hero() {
 
 
               <div className="h-32 rounded-lg">
-                <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-purple-500 ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
+                <a href="#" className="group block max-w-xs mx-auto rounded-lg p-6 bg-purple-500 ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
                   <div className="flex items-center space-x-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-person-standing"><circle cx="12" cy="5" r="1"/><path d="m9 20 3-6 3 6"/><path d="m6 8 6 2 6-2"/><path d="M12 10v4"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-person-standing"><circle cx="12" cy="5" r="1"/><path d="m9 20 3-6 3 6"/><path d="m6 8 6 2 6-2"/><path d="M12 10v4"/></svg>
                     <h3 className="text-slate-900 group-hover:text-white text-sm font-semibold">Survival Essentials</h3>
                   </div>
                   <p className="text-slate-500 group-hover:text-white text-sm">See how you should prepare yourself or your family.</p>
@@ -52,9 +52,9 @@ export default function Hero() {
               </div>
 
               <div className="h-32 rounded-lg">
-                <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-purple-500 ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
+                <a href="#" className="group block max-w-xs mx-auto rounded-lg p-6 bg-purple-500 ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
                   <div className="flex items-center space-x-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                     <h3 className="text-slate-900 group-hover:text-white text-sm font-semibold">Bunker Locations</h3>
                   </div>
                   <p className="text-slate-500 group-hover:text-white text-sm">Find the closest bunker and get your family to safety.</p>
