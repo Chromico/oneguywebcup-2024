@@ -8,6 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        ugblue: '#009DDB',
+        ugbluelighter: '#77C6FB',
+        ugpurple: '#BE27E8',
+        ugdark: '#1E222C',
+        ugdarker: '#131C28',
+        uglightdark: '#7C85A6',
+        black: '#000000',
+        newgreen: '#058c42',
+        neworange: '#ff7d00',
+        newyellow: '#ffba08',
         gray: {
           100: '#EBF1F5',
           200: '#D9E3EA',
@@ -31,12 +41,17 @@ module.exports = {
           900: '#262668',
         },
       },
+      backgroundImage: {
+        'hero-background': "url('/public/images/herobackground.png')",
+      },
       spacing: {
         '9/16': '56.25%',
         '3/4': '75%',
         '1/1': '100%',
       },
       fontFamily: {
+        orbitron: ['var(--font-orbitron)', 'sans-serif'],
+        noto: ['var(--font-noto)', 'sans-serif'],
         inter: ['var(--font-inter)', 'sans-serif'],
         'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
       },
