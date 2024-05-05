@@ -64,7 +64,7 @@ export default function Signup() {
                 </div>
               </div>
               <div className="text-sm text-gray-500 text-center">
-                I agree to be contacted by Open PRO about this offer as per the Open PRO <Link href="#" className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>.
+                I agree to be contacted by United Government about this offer as per the United Government <Link href="#" className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>.
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
@@ -74,7 +74,7 @@ export default function Signup() {
             </form> */}
             <SignUp path="/sign-up" routing="path" signInUrl="/sign-in" />
             <div className="text-gray-400 text-center mt-6">
-              Already using Open PRO? <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
+              Already using United Government? <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
             </div>
           </div>
 

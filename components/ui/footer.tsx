@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-gradient-to-r from-ugdark to-ugpurple">
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="Cruip">
+                <Link href="/" className="inline-block" aria-label="United Government">
                   <svg width="177" height="44" viewBox="0 0 177 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M22 42C33.0457 42 42 33.0457 42 22C42 10.9543 33.0457 2 22 2C10.9543 2 2 10.9543 2 22C2 33.0457 10.9543 42 22 42Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                   <path d="M22 2C16.8645 7.39231 14 14.5535 14 22C14 29.4465 16.8645 36.6077 22 42C27.1355 36.6077 30 29.4465 30 22C30 14.5535 27.1355 7.39231 22 2Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="md:flex md:items-center md:justify-between">
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; 2055 The United Government of Earth.</div>
+            <div className="text-white text-sm mr-4">&copy; 2055 The United Government of Earth.</div>
 
           </div>
 

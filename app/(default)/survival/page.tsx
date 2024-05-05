@@ -1,9 +1,8 @@
 export const metadata = {
-    title: 'Reset Password - Open PRO',
-    description: 'Page description',
+    title: 'Survival Guide - United Government',
+    description: 'Survival Guide',
   }
   
-import Link from 'next/link'
 
 import Guide from '@/components/guide'
 import Essentials from '@/components/essentials'

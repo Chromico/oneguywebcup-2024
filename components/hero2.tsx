@@ -1,10 +1,7 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '@/components/modal-video'
-
 export default function Hero2() {
   return (
-    <section> 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative bg-hero">
+    <section className="bg-gradient-to-r from-ugdark to-ugpurple"> 
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
@@ -48,7 +45,7 @@ export default function Hero2() {
 
 
                 <div className="h-32 rounded-lg" data-aos="fade-up">
-                    <a href="/survival" className="group block max-w-xs mx-auto rounded-lg p-6 bg-uglightdark ring-1 ring-white/5 shadow-lg space-y-3 hover:bg-newgreen hover:ring-sky-500">
+                    <a href="/survival" className="group block max-w-xs mx-auto rounded-lg p-6 bg-uglightdark ring-1 ring-white/5 shadow-lg space-y-3 hover:bg-newgreen hover:ring-ugblue">
                         <div className="flex items-center space-x-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-person-standing"><circle cx="12" cy="5" r="1"/><path d="m9 20 3-6 3 6"/><path d="m6 8 6 2 6-2"/><path d="M12 10v4"/></svg>
                         <h3 className="text-white group-hover:text-white text-sm font-semibold">Survival Essentials</h3>
@@ -58,7 +55,7 @@ export default function Hero2() {
                 </div>
 
                 <div className="h-32 rounded-lg" data-aos="fade-up">
-                    <a href="/bunker" className="group block max-w-xs mx-auto rounded-lg p-6 bg-uglightdark ring-1 ring-white/5 shadow-lg space-y-3 hover:bg-newyellow hover:ring-sky-500">
+                    <a href="/bunker" className="group block max-w-xs mx-auto rounded-lg p-6 bg-uglightdark ring-1 ring-white/5 shadow-lg space-y-3 hover:bg-newyellow hover:ring-ugblue">
                         <div className="flex items-center space-x-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                         <h3 className="text-white group-hover:text-white text-sm font-semibold">Bunker Locations</h3>

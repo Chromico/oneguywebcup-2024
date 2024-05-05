@@ -7,7 +7,7 @@ import Tuned from '@/public/images/tuned.png';
 
 export default function Guide() {
   return (
-    <section>
+    <section className="bg-gradient-to-r from-ugdark to-ugpurple">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         
         {/* Hero content */}

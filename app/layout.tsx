@@ -4,11 +4,6 @@ import { Inter, Architects_Daughter, Noto_Sans, Orbitron } from 'next/font/googl
 
 import Header from '@/components/ui/header'
 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap'
-})
 
 const noto_sans = Noto_Sans({
   subsets: ['latin'],
@@ -24,12 +19,6 @@ const orbitron = Orbitron({
   display: 'swap'
 })
 
-const architects_daughter = Architects_Daughter({
-  subsets: ['latin'],
-  variable: '--font-architects-daughter',
-  weight: '400',
-  display: 'swap'
-})
 
 export const metadata = {
   title: 'United Government',

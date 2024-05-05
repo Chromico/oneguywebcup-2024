@@ -1,9 +1,6 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '@/components/modal-video'
-
 export default function Bunkers() {
   return (
-    <section>
+    <section className="bg-gradient-to-r from-ugdark to-ugpurple">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
 
@@ -22,7 +19,7 @@ export default function Bunkers() {
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
                 <a
                 className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                href="#"
+                href="https://www.google.com/maps?q=48.8584,2.2945"
                 >
 
                 <h2 className="mt-2 font-bold">Bunker 1</h2>
@@ -34,7 +31,7 @@ export default function Bunkers() {
 
                 <a
                 className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                href="#"
+                href="https://www.google.com/maps?q=40.6892,-74.0445"
                 >
 
                 <h2 className="mt-2 font-bold">Bunker 2</h2>
@@ -46,7 +43,7 @@ export default function Bunkers() {
 
                 <a
                 className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                href="#"
+                href="https://www.google.com/maps?q=27.1751,78.0421"
                 >
 
                 <h2 className="mt-2 font-bold">Bunker 3</h2>
@@ -58,7 +55,7 @@ export default function Bunkers() {
 
                 <a
                 className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                href="#"
+                href="https://www.google.com/maps?q=40.4319,116.5704"
                 >
 
                 <h2 className="mt-2 font-bold">Bunker 4</h2>
@@ -70,7 +67,7 @@ export default function Bunkers() {
 
                 <a
                 className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                href="#"
+                href="https://www.google.com/maps?q=-13.1631,-72.5450"
                 >
 
                 <h2 className="mt-2 font-bold">Bunker 5</h2>
@@ -82,7 +79,7 @@ export default function Bunkers() {
 
                 <a
                 className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                href="#"
+                href="https://www.google.com/maps?q=29.9792,31.1342"
                 >
 
                 <h2 className="mt-2 font-bold">Bunker 6</h2>

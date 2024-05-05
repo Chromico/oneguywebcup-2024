@@ -1,9 +1,8 @@
 export const metadata = {
-    title: 'Reset Password - Open PRO',
-    description: 'Page description',
+    title: 'Bunker Locations - United Government',
+    description: 'Bunker Locations',
   }
   
-import Link from 'next/link'
 
 import Faq from '@/components/faq'
 import Bunkers from '@/components/bunkers'

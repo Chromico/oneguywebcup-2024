@@ -41,9 +41,6 @@ module.exports = {
           900: '#262668',
         },
       },
-      backgroundImage: {
-        'hero-background': "url('/public/images/herobackground.png')",
-      },
       spacing: {
         '9/16': '56.25%',
         '3/4': '75%',
@@ -52,8 +49,6 @@ module.exports = {
       fontFamily: {
         orbitron: ['var(--font-orbitron)', 'sans-serif'],
         noto: ['var(--font-noto)', 'sans-serif'],
-        inter: ['var(--font-inter)', 'sans-serif'],
-        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
       },
       fontSize: {
         xs: '0.75rem',

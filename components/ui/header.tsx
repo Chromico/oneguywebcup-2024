@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
-import Logo from '@/public/images/unitedgov-small.png';
-import Image from 'next/image';
-import Dropdown from '@/components/utils/dropdown'
+
 
 export default function Header() {
   return (
